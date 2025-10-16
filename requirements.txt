@@ -1,5 +1,7 @@
-# Core Streamlit app dependencies
+# Streamlit web app
 streamlit==1.50.0
+
+# Core data + ML libraries
 pandas==2.3.3
 numpy==2.3.3
 scikit-learn==1.7.2
@@ -7,13 +9,15 @@ scipy==1.16.2
 requests==2.32.3
 pillow==11.3.0
 
-# Visualization and data handling
+# Visualization
 altair==5.5.0
+
+# Safe binary versions (no Rust compile)
 pyarrow==15.0.2
 protobuf==4.25.3
 rpds-py==0.18.0
 
-# System and utility libs
+# Misc utilities
 click==8.3.0
 tornado==6.5.1
 typing_extensions==4.14.0
